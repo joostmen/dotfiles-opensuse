@@ -1,0 +1,31 @@
+[pyprland]
+plugins = [
+ "expose",
+ "fetch_client_menu",
+ "lost_windows",
+ "magnify",
+ "scratchpads",
+ "shift_monitors",
+ "toggle_special",
+ "workspaces_follow_focus",
+]
+
+# using variables for demonstration purposes (not needed)
+[pyprland.variables]
+term_classed = "kitty --class"
+note_func= "kitty -e note"
+alias_note='kitty -e nvim ~/Notes/quicknote-$(date +"%d-%m-%y").md --class'
+[scratchpads.term]
+animation = "fromTop"
+command = "[term_classed] main-dropterm"
+class = "main-dropterm"
+size = "75% 60%"
+max_size = "1920px 100%"
+
+[scratchpads.quicknote]
+animation = "fromLeft"
+command = "[term_classed] main-quicknote nvim ~/Notes/quicknote-$(date +'%d-%m-%y').md"
+class = "main-quicknote"
+size = "45% 75%" # ongeveer een schermhelft
+max_size = "1920px 100%"
+

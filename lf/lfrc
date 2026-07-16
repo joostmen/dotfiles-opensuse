@@ -1,0 +1,10 @@
+cmd open ${{
+    case $f in
+        *.txt|*.tex|*.conf) nvim "$f" ;;
+        *.docx|*.doc) libreoffice "$f" ;;
+        *) xdg-open "$f" >/dev/null 2>&1 & ;;
+    esac
+}}
+map <enter> open
+set previewer ~/.config/lf/preview.sh
+set cleaner ~/.config/lf/cleaner.sh

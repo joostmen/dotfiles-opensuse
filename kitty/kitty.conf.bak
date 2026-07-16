@@ -1,0 +1,9 @@
+include gruvbox.conf
+
+#Dit zou illegaal moeten zijn
+#font_family family="Comic Mono"
+
+
+font_family family="MesloLGSDZ Nerd Font Mono"
+font_size        10.0
+symbol_map U+3000-U+30FF,U+4E00-U+9FFF Noto Sans CJK JP
