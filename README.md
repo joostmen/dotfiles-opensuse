@@ -1,3 +1,6 @@
+# example
+![Layout screenshot](layout.png)
+
 ### move dotfiles to generilzed folder
 ```
 mkdir -p ~/dotfiles
