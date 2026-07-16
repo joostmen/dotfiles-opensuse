@@ -3,6 +3,6 @@ local M = {}
 
 M.terminal = "kitty -e tmux"
 M.menu = "wofi --show drun"
-M.browser = "waterfox --new-window"
+M.browser = "firefox --new-window"
 
 return M
