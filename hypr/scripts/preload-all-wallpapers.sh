@@ -1,5 +1,5 @@
 WALLPAPER_DIR="$HOME/Images/wallpapers"
-CONFIG_FILE="$HOME/.config/hypr/hyprpaper.conf"
+CONFIG_FILE="$HOME/dotfiles/hypr/hyprpaper.conf"
 
 # Optional: clear previous preload lines
 sed -i '/^preload =/d' "$CONFIG_FILE"

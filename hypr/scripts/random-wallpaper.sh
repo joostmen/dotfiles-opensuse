@@ -18,7 +18,7 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( \
 # Safety check
 [ -z "$WALLPAPER" ] && exit 1
 
-swww img "$WALLPAPER" \
+awww img "$WALLPAPER" \
   --transition-type any \
   --transition-duration 1 \
   --transition-fps 60

@@ -161,7 +161,7 @@ hl.config({
 
 hl.on("hyprland.start", function()
     hl.exec_cmd("waybar")
-    hl.exec_cmd("swww-daemon")
+    hl.exec_cmd("awww-daemon")
     hl.exec_cmd("~/.config/hypr/scripts/random-wallpaper.sh")
     hl.exec_cmd("~/.config/hypr/scripts/battery_notify.sh")
     hl.exec_cmd("/usr/local/bin/pypr")
