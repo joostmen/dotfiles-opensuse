@@ -15,3 +15,5 @@ case "$(file -Lb --mime-type "$file")" in
         bat --color=always --style=plain "$file" 2>/dev/null || cat "$file"
         ;;
 esac
+
+
