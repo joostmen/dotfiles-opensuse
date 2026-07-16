@@ -8,3 +8,4 @@ cmd open ${{
 map <enter> open
 set previewer ~/.config/lf/preview.sh
 set cleaner ~/.config/lf/cleaner.sh
+map D delete
