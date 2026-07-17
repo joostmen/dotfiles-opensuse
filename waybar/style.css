@@ -1,0 +1,86 @@
+/* === Gruvbox theme for Waybar === */
+
+* {
+    font-family: "MesloLGSDZ Nerd Font Mono", sans-serif;
+    font-size: 14px;
+    min-height: 0;
+    padding: 3px 0px; /* y, x. padding voor top bar*/
+    margin: 0;
+    border: none;
+    background: transparent;
+    color: #ebdbb2; /* foreground */
+}
+
+window#waybar {
+    background-color: #282828; /* background */
+    border-bottom: 2px solid #d79921;
+}
+
+#workspaces button {
+    color: #ebdbb2;
+    background-color: transparent;
+    border: none;
+    padding: 0px 8px;
+    margin: 2px;
+}
+
+#workspaces button.focused {
+    background-color: #d79921;
+    color: #282828;
+    border-radius: 6px;
+}
+
+#clock,
+#battery,
+#wireplumber,
+#network,
+#backlight,
+#tray,
+#custom-spotify,
+#custom-weather {
+    background-color: #3c3836;
+    padding: 4px 10px;
+    margin: 4px 4px;
+    border-radius: 6px;
+}
+
+/* Specific colors for certain modules */
+#clock {
+    color: #fabd2f;
+}
+
+#battery {
+    color: #b8bb26;
+    
+}
+
+#battery.charging {
+    color: #8ec07c;
+}
+
+#wireplumber {
+    color: #83a598;
+}
+
+#network {
+    color: #d3869b;
+}
+
+#custom-spotify {
+    color: #b8bb26;
+}
+
+#tray {
+    color: #ebdbb2;
+}
+
+/* Hover effect */
+#workspaces button:hover,
+#clock:hover,
+#battery:hover,
+#pulseaudio:hover,
+#network:hover {
+    background-color: #504945;
+    color: #fabd2f;
+}
+
